@@ -204,50 +204,80 @@
 </div>
 
 <div class="flex w-full h-[896px]">
-    <div class="relative">
-        <div
-            class="absolute w-[496px] h-[622px] top-[90px] left-[69px] bg-cover bg-center z-20"
-            style="background-image: url('/imgs/AdobeStock_377418446_Preview.png');"
-        />
-        <div class="absolute w-[858px] h-[606px] top-[126px] left-[513px] bg-customgreen-100 rounded-xl z-10">
-            <div class="flex flex-col space-y-[10px] ml-[222px] mt-[60px]">
-                <span class="text-[14px] font-normal leading-[10px] tracking-[2.1px] text-customgray-900">BIOM WIPES</span>
-                <span class="text-[36px] font-black leading-[44px] tracking-[0px] text-black">Better for you, and the planet.</span>
-                <span class="text-[18px] max-w-[555px] font-normal leading-[28px] tracking-[0px] text-customgray-900">The experience of clean should feel amazing. In a time when we’re constantly sanitizing, it can be damaging to our hands and skins. We decided to load our wipes with Aloe to take care of you, while you take care of your home.</span>
-                <div class="flex flex-col space-y-[35px] ml-10 !mt-[55px]">
-                    <div class="flex space-x-[22px]">
-                        <img src="/icons/biodegradable icon.png" alt="Biodegradable icon" class="w-[69px] h-[66px]">
-                        <span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black">100% biodegradable</span>
-                    </div>
-                    <div class="flex space-x-[22px]">
-                        <img src="/icons/plastic free icon.png" alt="Plastic free icon" class="w-[69px] h-[66px]">
-                        <span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black">Plastic-free</span>
-                    </div>
-                    <div class="flex space-x-[22px]">
-                        <img src="/icons/plant based icon.png" alt="Plant based icon" class="w-[69px] h-[66px]">
-                        <span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black">100% plant-based</span>
-                    </div>
-                    <button
-                        class="bg-customgreen-900 hover:bg-customgray-900 mt-[45px] w-[163px] py-4 rounded-md text-customwhite-500 font-black text-[13px] tracking-[1.95px]"
-                    >
-                        SHOP NOW
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div
-            class="absolute w-[308px] h-[373px] top-[433px] left-[397px] bg-cover bg-center z-30"
-            style="background-image: url('/imgs/Refill Packaging_Mockup_2.png');"
-        />
-    </div>
+	<div class="relative">
+		<div
+			class="absolute w-[496px] h-[622px] top-[90px] left-[69px] bg-cover bg-center z-20"
+			style="background-image: url('/imgs/AdobeStock_377418446_Preview.png');"
+		/>
+		<div
+			class="absolute w-[858px] h-[606px] top-[126px] left-[513px] bg-customgreen-100 rounded-xl z-10"
+		>
+			<div class="flex flex-col space-y-[10px] ml-[222px] mt-[60px]">
+				<span class="text-[14px] font-normal leading-[10px] tracking-[2.1px] text-customgray-900"
+					>BIOM WIPES</span
+				>
+				<span class="text-[36px] font-black leading-[44px] tracking-[0px] text-black"
+					>Better for you, and the planet.</span
+				>
+				<span
+					class="text-[18px] max-w-[555px] font-normal leading-[28px] tracking-[0px] text-customgray-900"
+					>The experience of clean should feel amazing. In a time when we’re constantly sanitizing,
+					it can be damaging to our hands and skins. We decided to load our wipes with Aloe to take
+					care of you, while you take care of your home.</span
+				>
+				<div class="flex flex-col space-y-[35px] ml-10 !mt-[55px]">
+					<div class="flex space-x-[22px]">
+						<img
+							src="/icons/biodegradable icon.png"
+							alt="Biodegradable icon"
+							class="w-[69px] h-[66px]"
+						/>
+						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black"
+							>100% biodegradable</span
+						>
+					</div>
+					<div class="flex space-x-[22px]">
+						<img
+							src="/icons/plastic free icon.png"
+							alt="Plastic free icon"
+							class="w-[69px] h-[66px]"
+						/>
+						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black"
+							>Plastic-free</span
+						>
+					</div>
+					<div class="flex space-x-[22px]">
+						<img
+							src="/icons/plant based icon.png"
+							alt="Plant based icon"
+							class="w-[69px] h-[66px]"
+						/>
+						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black"
+							>100% plant-based</span
+						>
+					</div>
+					<button
+						class="bg-customgreen-900 hover:bg-customgray-900 mt-[45px] w-[163px] py-4 rounded-md text-customwhite-500 font-black text-[13px] tracking-[1.95px]"
+					>
+						SHOP NOW
+					</button>
+				</div>
+			</div>
+		</div>
+		<div
+			class="absolute w-[308px] h-[373px] top-[433px] left-[397px] bg-cover bg-center z-30"
+			style="background-image: url('/imgs/Refill Packaging_Mockup_2.png');"
+		/>
+	</div>
 </div>
 
 <div class="px-[25px]">
-    <div class="relative w-full h-[675px] rounded-[14px] overflow-hidden">
-        <video width="1920" height="1080" autoplay muted loop>
-            <source src="/videos/coverr-surfing-through-the-ocean-waves-4214-1080p.mp4" type="video/mp4"> 
-        </video>
-
-    </div>
+	<div class="relative w-full h-[675px] rounded-[14px] overflow-hidden">
+		<video width="1920" height="1080" autoplay muted loop>
+			<source
+				src="/videos/coverr-surfing-through-the-ocean-waves-4214-1080p.mp4"
+				type="video/mp4"
+			/>
+		</video>
+	</div>
 </div>
-
