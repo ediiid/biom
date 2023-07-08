@@ -10,6 +10,6 @@
 
 <Header bind:headerClass />
 <main class={mainClass}>
-	<slot />
+    <slot />
 </main>
 <Footer bind:footerClass />

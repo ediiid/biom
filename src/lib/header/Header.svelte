@@ -2,7 +2,7 @@
 	export let headerClass = '';
 </script>
 
-<header class="w-full sticky top-0 backdrop-blur-[10px]">
+<header class="w-full sticky z-[100] top-0 backdrop-blur-[10px]">
 	<div class="flex justify-between {headerClass} px-[50px] py-[23px] align-middle">
 		<div
 			class="flex justify-start space-x-[22px] align-middle my-auto text-black text-[15px] font-bold"
