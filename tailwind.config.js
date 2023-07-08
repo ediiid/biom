@@ -3,6 +3,7 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			display: ['group-hover'],
 			colors: {
 				customwhite: {
 					500: '#FFFAFA'
