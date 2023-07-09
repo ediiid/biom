@@ -44,6 +44,7 @@ Used dependencies / libraries / design-systems:
 
 - SvelteKit framework (and its core dependencies)
 - TailwindCSS
+- cssnano
 - Checking with JSDoc (tool)
 - ESLint (tool)
 - Prettier (tool)
