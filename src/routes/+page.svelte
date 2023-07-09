@@ -7,10 +7,10 @@
 			let maxHeight = document.body.scrollHeight - window.innerHeight;
 			let scrolled = Number(((window.pageYOffset * 100) / maxHeight).toFixed(2));
 			let element = document.getElementById('element-to-move');
-			let scrollThreshold = 85;
+			let scrollThreshold = 84;
 			if (scrolled > scrollThreshold) {
 				let moveBy = scrolled - scrollThreshold;
-				element.style.transform = 'translateX(-' + moveBy * 10 + 'px)';
+				element.style.transform = 'translateX(-' + moveBy * 18 + 'px)';
 			} else if (scrolled < scrollThreshold) {
 				element.style.transform = 'translateX(0px)';
 			}
