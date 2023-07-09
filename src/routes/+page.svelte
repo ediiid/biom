@@ -10,23 +10,25 @@
 			let scrollThreshold = 84;
 			if (scrolled > scrollThreshold) {
 				let moveBy = scrolled - scrollThreshold;
+				// @ts-ignore
 				element.style.transform = 'translateX(-' + moveBy * 18 + 'px)';
 			} else if (scrolled < scrollThreshold) {
+				// @ts-ignore
 				element.style.transform = 'translateX(0px)';
 			}
 		});
 	}
 </script>
 
-<div class="px-[25px]">
+<div class="px-[15px] md:px-[25px]">
 	<div
-		class="flex flex-col pl-[85px] pt-[159px] w-full h-[675px] bg-cover bg-no-repeat rounded-[14px]"
-		style="background-image: url('/imgs/Kitchen_3.png');"
+		class="flex flex-col pl-[40px] md:pl-[85px] pt-[55px] md:pt-[159px] w-full pb-[55px] md:pb-[0px] md:h-[675px] bg-cover bg-no-repeat rounded-[14px]"
+		style="background-image: url('/imgs/Kitchen_3.webp');"
 	>
 		<span class="max-w-[280px] font-black text-[56px] leading-[62px] tracking-[0px] text-customwhite-500">
 			So fresh. So green.
 		</span>
-		<span class="mt-[14px] max-w-[410px] text-customwhite-500 text-[20px] leading-[28px] font-normal tracking-[0px] font-brandon">
+		<span class="mt-[14px] mr-[40px] md:mr-0 max-w-[410px] text-customwhite-500 text-[20px] leading-[28px] font-normal tracking-[0px] font-brandon">
 			We believe that a more eco-friendly everyday makes a happier you and me. We’re on a mission to
 			put sustainability in reach with better-for-the-planet wipes that are easy, effective, and
 			plastic-free.
@@ -40,7 +42,7 @@
 </div>
 
 <div
-	class="absolute rotate-180 w-[270px] h-[730] ml-6 overflow-y-auto overflow-x-hidden hide-scrollbar z-10"
+	class="hidden md:flex absolute rotate-180 w-[270px] h-[730] ml-6 overflow-y-auto overflow-x-hidden hide-scrollbar z-10"
 >
 	<div
 		class="rotate-90 text-[225px] text-customgray-100 font-bold w-[0px] h-[730px] whitespace-nowrap hide-scrollbar font-brandon tracking-[-5.63px]"
@@ -50,9 +52,9 @@
 </div>
 <div
 	class="flex flex-col w-full h-[730px] bg-cover bg-no-repeat z-20"
-	style="background-image: url('/imgs/Mask Group 12.png');"
+	style="background-image: url('/imgs/Mask Group 12.webp');"
 >
-	<div class="flex flex-col self-end max-w-[565px] mr-[140px] pt-[103px] w-1/2">
+	<div class="flex flex-col md:self-end md:max-w-[565px] pr-4 md:pr-0 pl-4 md:pl-0 md:mr-[140px] pt-10 md:pt-[103px] w-full md:w-1/2">
 		<span class="font-normal font-brandon text-[14px] tracking-[2.1px] text-customgray-900">
 			THE BIOM DISPENSER
 		</span>
@@ -65,19 +67,19 @@
 		</span>
 		<div class="flex flex-col mt-[42px] space-y-[35px]">
 			<div class="flex space-x-[22px]">
-				<img src="/icons/beautiful design icon.png" alt="Beautiful design icon" />
+				<img src="/icons/beautiful design icon.webp" alt="Beautiful design icon" />
 				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Beautiful design, fit for your home</span
 				>
 			</div>
 			<div class="flex space-x-[22px]">
-				<img src="/icons/durable stainless icon.png" alt="Durable stainless icon" />
+				<img src="/icons/durable stainless icon.webp" alt="Durable stainless icon" />
 				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Durable stainless steel exterior</span
 				>
 			</div>
 			<div class="flex space-x-[22px]">
-				<img src="/icons/non toxic icon.png" alt="Non toxic icon" />
+				<img src="/icons/non toxic icon.webp" alt="Non toxic icon" />
 				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Non-toxic, BPA free</span
 				>
@@ -91,28 +93,28 @@
 	</div>
 </div>
 
-<div class="mt-[40px] flex justify-between">
-	<div class="group relative w-[433px] h-[415px] overflow-hidden rounded-r-[14px]">
+<div class="mt-[40px] flex flex-col space-y-4 md:space-y-0 px-4 md:px-0 md:flex-row justify-between">
+	<div class="group relative w-full md:w-[433px] h-[415px] overflow-hidden rounded-[14px] md:rounded-l-none">
 		<div
 			class="group bg-cover bg-right group-hover:scale-105 ease-in-out duration-500 w-full h-full"
-			style="background-image: url('/imgs/Living Room_1.png');"
+			style="background-image: url('/imgs/Living Room_1.webp');"
 		/>
 		<span
 			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-500 absolute bottom-[22px] left-[110px] text-customwhite-500 font-bold text-[22px]"
 			>living room</span
 		>
 	</div>
-	<div class="group relative w-[535px] h-[415px] overflow-hidden rounded-[14px]">
+	<div class="group relative w-full md:w-[535px] h-[415px] overflow-hidden rounded-[14px]">
 		<div
 			class="group bg-cover bg-center group-hover:scale-105 ease-in-out duration-500 w-full h-full"
-			style="background-image: url('/imgs/office.png');"
+			style="background-image: url('/imgs/office.webp');"
 		/>
 		<span
-			class="group absolute top-[108px] left-[168px] text-white font-normal text-[16px] tracking-[2.4px] font-brandon"
+			class="group absolute top-[50px] md:top-[108px] left-[95px] md:left-[168px] text-white font-normal text-[16px] tracking-[2.4px] font-brandon"
 			>WHERE YOU NEED IT,</span
 		>
 		<span
-			class="group absolute top-[132px] mx-[100px] text-white font-black text-[78px] text-center tracking-[-0.78px] leading-[82px]"
+			class="group absolute top-[70px] md:top-[132px] mx-[100px] text-white font-black text-[78px] text-center tracking-[-0.78px] leading-[82px]"
 			>when you need it.</span
 		>
 		<span
@@ -120,10 +122,10 @@
 			>office</span
 		>
 	</div>
-	<div class="group relative w-[433px] h-[415px] overflow-hidden rounded-l-[14px]">
+	<div class="group relative w-full md:w-[433px] h-[415px] overflow-hidden rounded-[14px] md:rounded-r-none">
 		<div
 			class="group bg-cover bg-left group-hover:scale-105 ease-in-out duration-500 w-full h-full"
-			style="background-image: url('/imgs/Kitchen Shot_3.png');"
+			style="background-image: url('/imgs/Kitchen Shot_3.webp');"
 		/>
 		<span
 			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-500 absolute bottom-[22px] right-[127px] text-customwhite-500 font-bold text-[22px]"
@@ -132,7 +134,7 @@
 	</div>
 </div>
 
-<div class="flex mt-[120px] justify-between">
+<div class="flex flex-col md:flex-row space-y-8 md:space-y-0 mt-8 md:mt-[120px] justify-between">
 	<div class="flex mx-auto mt-[55px]">
 		<div class="flex flex-col space-y-[35px] w-full">
 			<span class="text-[36px] ml-[50px] text-black font-black leading-[44px] max-w-[300px]"
@@ -156,10 +158,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="group relative flex flex-col overflow-hidden">
+	<div class="group relative flex flex-col overflow-hidden mx-auto">
 		<div
 			class="group bg-cover bg-center w-[400px] h-[400px] group-hover:translate-x-14 ease-in-out duration-300"
-			style="background-image: url('/imgs/Green_1.png');"
+			style="background-image: url('/imgs/Green_1.webp');"
 		/>
 		<span
 			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[72px] text-black font-black text-[22px]"
@@ -170,10 +172,10 @@
 			>OCEAN TEAL</span
 		>
 	</div>
-	<div class="group relative flex flex-col overflow-hidden">
+	<div class="group relative flex flex-col overflow-hidden mx-auto">
 		<div
 			class="group bg-cover bg-center w-[400px] h-[400px] group-hover:translate-x-14 ease-in-out duration-300"
-			style="background-image: url('/imgs/Biom fn .20.png');"
+			style="background-image: url('/imgs/Biom fn .20.webp');"
 		/>
 		<span
 			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[72px] text-black font-black text-[22px]"
@@ -184,10 +186,10 @@
 			>WHITE</span
 		>
 	</div>
-	<div class="group relative flex flex-col overflow-hidden">
+	<div class="group relative flex flex-col overflow-hidden mx-auto">
 		<div
 			class="group bg-cover bg-center w-[400px] h-[400px] group-hover:translate-x-14 ease-in-out duration-300"
-			style="background-image: url('/imgs/Black_2.png');"
+			style="background-image: url('/imgs/Black_2.webp');"
 		/>
 		<span
 			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[72px] text-black font-black text-[22px]"
@@ -201,7 +203,7 @@
 </div>
 
 <div
-	class="relative flex flex-col place-content-center m-auto h-[450px] bg-customgray-100 -mt-[16px] text-center"
+	class="relative flex flex-col place-content-center px-4 md:px-0 py-4 md:py-0 m-auto md:h-[450px] bg-customgray-100 -mt-[16px] text-center"
 >
 	<span class="text-[14px] font-normal leading-[62px] tracking-[2.1px] text-customgray-900 font-brandon"
 		>WHAT PEOPLE ARE SAYING</span
@@ -223,11 +225,11 @@
 	</div>
 </div>
 
-<div class="flex w-full h-[896px]">
-	<div class="relative">
+<div class="hidden md:flex w-full h-[896px]">
+	<div class="flex relative">
 		<div
 			class="absolute w-[496px] h-[622px] top-[90px] left-[69px] bg-cover bg-center z-20"
-			style="background-image: url('/imgs/AdobeStock_377418446_Preview.png');"
+			style="background-image: url('/imgs/AdobeStock_377418446_Preview.webp');"
 		/>
 		<div
 			class="absolute w-[858px] h-[606px] top-[126px] left-[513px] bg-customgreen-100 rounded-xl z-10"
@@ -248,7 +250,7 @@
 				<div class="flex flex-col space-y-[35px] ml-10 !mt-[55px]">
 					<div class="flex space-x-[22px]">
 						<img
-							src="/icons/biodegradable icon.png"
+							src="/icons/biodegradable icon.webp"
 							alt="Biodegradable icon"
 							class="w-[69px] h-[66px]"
 						/>
@@ -258,7 +260,7 @@
 					</div>
 					<div class="flex space-x-[22px]">
 						<img
-							src="/icons/plastic free icon.png"
+							src="/icons/plastic free icon.webp"
 							alt="Plastic free icon"
 							class="w-[69px] h-[66px]"
 						/>
@@ -268,7 +270,7 @@
 					</div>
 					<div class="flex space-x-[22px]">
 						<img
-							src="/icons/plant based icon.png"
+							src="/icons/plant based icon.webp"
 							alt="Plant based icon"
 							class="w-[69px] h-[66px]"
 						/>
@@ -286,13 +288,13 @@
 		</div>
 		<div
 			class="absolute w-[308px] h-[373px] top-[433px] left-[397px] bg-cover bg-center z-30"
-			style="background-image: url('/imgs/Refill Packaging_Mockup_2.png');"
+			style="background-image: url('/imgs/Refill Packaging_Mockup_2.webp');"
 		/>
 	</div>
 </div>
 
-<div class="px-[25px]">
-	<div class="relative w-full h-[675px] rounded-[14px] overflow-hidden">
+<div class="md:px-[25px]">
+	<div class="relative w-full md:h-[675px] md:rounded-[14px] overflow-hidden">
 		<video width="1920" height="1080" autoplay muted loop>
 			<source
 				src="/videos/coverr-surfing-through-the-ocean-waves-4214-1080p.mp4"
@@ -300,17 +302,17 @@
 			/>
 		</video>
 		<div
-			class="absolute w-full top-[233px] flex flex-col place-content-center text-center"
+			class="absolute w-full top-[35px] md:top-[233px] flex flex-col place-content-center text-center"
 		>
-			<span class="text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500 font-brandon"
+			<span class="hidden md:block text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500 font-brandon"
 				>CLEANING OUR OCEANS WITH EVERY WIPE</span
 			>
 			<span
-				class="mt-[6px] text-[36px] font-black leading-[62px] tracking-[0px] text-customwhite-500"
+				class="mt-[6px] px-12 md:px-0 text-[28px] md:text-[36px] font-black leading-[36px] md:leading-[62px] tracking-[0px] text-customwhite-500"
 				>Wipes have plastic in them. We don’t.</span
 			>
 			<span
-				class="mt-[10px] self-center max-w-[636px] text-[18px] font-normal leading-[28px] tracking-[0px] text-customwhite-500 font-brandon"
+				class="hidden md:block mt-[10px] self-center max-w-[636px] text-[18px] font-normal leading-[28px] tracking-[0px] text-customwhite-500 font-brandon"
 				>We reinvented wipes to cut out all the bad stuff —like single-use plastic that hurts the
 				environment, and toxic chemicals that don’t belong in our oceans (or in our homes).</span
 			>
@@ -330,32 +332,32 @@
 	>
 	<div class="flex justify-between space-x-[30px] ease-in-out" id="element-to-move">
 		<img
-			src="/imgs/AdobeStock_372350085_Preview.png"
+			src="/imgs/AdobeStock_372350085_Preview.webp"
 			alt="AdobeStock_372350085_Preview"
 			class="bg-cover bg-center w-[250px] h-[250px] top-0"
 		/>
 		<img
-			src="/imgs/Biom_wipe_6.png"
+			src="/imgs/Biom_wipe_6.webp"
 			alt="Biom_wipe_6"
 			class="bg-cover bg-center w-[270px] h-[270px] mt-[20px]"
 		/>
 		<img
-			src="/imgs/kitchen_counter_low res.png"
+			src="/imgs/kitchen_counter_low res.webp"
 			alt="Kitchen_counter_low res"
 			class="bg-cover bg-center w-[250px] h-[250px] top-0"
 		/>
 		<img
-			src="/imgs/Green-Gold-and-Navy-Living_Kitty-and-B-by-Kat-G.png"
+			src="/imgs/Green-Gold-and-Navy-Living_Kitty-and-B-by-Kat-G.webp"
 			alt="Green-Gold-and-Navy-Living_Kitty-and-B-by-Kat-G"
 			class="bg-cover bg-center w-[270px] h-[270px] mt-[20px]"
 		/>
 		<img
-			src="/imgs/Biom fn .23.png"
+			src="/imgs/Biom fn .23.webp"
 			alt="Biom fn .23"
 			class="bg-cover bg-center w-[250px] h-[250px] top-0"
 		/>
 		<img
-			src="/imgs/AdobeStock_334130078_Preview.png"
+			src="/imgs/AdobeStock_334130078_Preview.webp"
 			alt="AdobeStock_334130078_Preview"
 			class="bg-cover bg-center w-[270px] h-[270px] mt-[20px]"
 		/>
@@ -370,7 +372,7 @@
 		</span>
 		<div class="group flex place-content-center px-4 py-3">
 			<img
-				src="/icons/Icon awesome-instagram.png"
+				src="/icons/Icon awesome-instagram.webp"
 				alt="Icon awesome-instagram"
 				class="group group-hover:translate-x-1 ease-in-out duration-300 w-[18px] h-[18px] self-center"
 			/>
