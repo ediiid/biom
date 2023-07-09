@@ -38,3 +38,78 @@
 		display: none;
 	}
 }
+
+@layer base {
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_bld.otf');
+		font-weight: 700;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_bld_it.otf');
+		font-weight: 700;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_blk.otf');
+		font-weight: 900;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_blk_it.otf');
+		font-weight: 900;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_light.otf');
+		font-weight: 300;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_light_it.otf');
+		font-weight: 300;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_med.otf');
+		font-weight: 500;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_med_it.otf');
+		font-weight: 500;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_reg.otf');
+		font-weight: 400;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_reg_it.otf');
+		font-weight: 400;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_thin.otf');
+		font-weight: 100;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'brandon';
+		src: url('/fonts/Brandon-Grotesque-Font-Family/Brandon_thin_it.otf');
+		font-weight: 100;
+		font-style: italic;
+	}
+}

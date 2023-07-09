@@ -19,6 +19,9 @@ export default {
 					100: '#DAE5E5',
 					900: '#004A4C'
 				}
+			},
+			fontFamily: {
+				'brandon': ['brandon', 'system-ui']
 			}
 		}
 	},
