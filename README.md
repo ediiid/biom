@@ -58,6 +58,6 @@ Notes:
 
 Demo can be found also here: https://biom.edis.one/
 
-> Please note that the demo is self-hosted on a home server and there is a small chance for it to be offline (server uptime is 95% and upload speed isn't great but enough).
+> Please note that the demo is self-hosted on a home server and there is a small chance for it to be offline (proxied through Cloudflare, server uptime is 95% and upload speed isn't great but enough).
 
 Thank you for reviewing the exam!
