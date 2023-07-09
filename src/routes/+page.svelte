@@ -279,5 +279,43 @@
 				type="video/mp4"
 			/>
 		</video>
+		<div class="absolute w-full top-[233px] flex flex-col space-y-0 place-content-center text-center">
+			<span class="text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500">CLEANING OUR OCEANS WITH EVERY WIPE</span>
+			<span class="!mt-[6px] text-[36px] font-black leading-[62px] tracking-[0px] text-customwhite-500">Wipes have plastic in them. We don’t.</span>
+			<span class="!mt-[10px] self-center max-w-[636px] text-[18px] font-normal leading-[28px] tracking-[0px] text-customwhite-500">We reinvented wipes to cut out all the bad stuff —like single-use plastic that hurts the environment, and toxic chemicals that don’t belong in our oceans (or in our homes).</span>
+			<button
+			class="!mt-[24px] mx-auto bg-white hover:bg-customwhite-500 rounded-md w-[180px] h-[50px] text-customgray-900 font-black text-[13px] tracking-[1.95px]"
+			>
+				LEARN MORE
+			</button>
+		</div>
+	</div>
+</div>
+
+<div class="flex flex-col h-[634px] mt-20 overflow-hidden">
+	<span class="mx-auto mb-[50px] text-[36px] font-black leading-[44px] tracking-[0px] text-customgray-900">#cleanwithbiom</span>
+	<div class="flex justify-between space-x-[30px]">
+		<img src="/imgs/AdobeStock_372350085_Preview.png" alt="AdobeStock_372350085_Preview" class="bg-cover bg-center w-[250px] h-[250px] top-0">
+		<img src="/imgs/Biom_wipe_6.png" alt="Biom_wipe_6" class="bg-cover bg-center w-[270px] h-[270px] mt-[20px]">
+		<img src="/imgs/kitchen_counter_low res.png" alt="Kitchen_counter_low res" class="bg-cover bg-center w-[250px] h-[250px] top-0">
+		<img src="/imgs/Green-Gold-and-Navy-Living_Kitty-and-B-by-Kat-G.png" alt="Green-Gold-and-Navy-Living_Kitty-and-B-by-Kat-G" class="bg-cover bg-center w-[270px] h-[270px] mt-[20px]">
+		<img src="/imgs/Biom fn .23.png" alt="Biom fn .23" class="bg-cover bg-center w-[250px] h-[250px] top-0">
+		<img src="/imgs/AdobeStock_334130078_Preview.png" alt="AdobeStock_334130078_Preview" class="bg-cover bg-center w-[270px] h-[270px] mt-[20px]">
+	</div>
+	<div
+		class="group self-center mt-[40px] flex w-fit place-content-center border border-customgray-900 rounded-[6px]"
+	>
+		<span
+			class="group border-r border-r-customgray-900 text-[14px] font-bold text-customgreen-900 px-4 py-3"
+		>
+			FOLLOW US ON INSTAGRAM
+		</span>
+		<div class="group flex place-content-center px-4 py-3">
+			<img
+				src="/icons/Icon awesome-instagram.png"
+				alt="Icon awesome-instagram"
+				class="group group-hover:translate-x-1 ease-in-out duration-300 w-[18px] h-[18px] self-center"
+			/>
+		</div>
 	</div>
 </div>
