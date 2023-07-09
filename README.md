@@ -33,7 +33,9 @@ Run option 2: production
 # run in production
 npm run start
 
-# production server should be available at http://localhost:3000/ (port can be forwarded through a reverse proxy before allowing it to be accessible from outside (this is how the bellow self-hosted demo is running))
+# production server should be available at http://localhost:3000/ (port can be forwarded through
+# a reverse proxy before allowing it to be accessible from outside
+# (this is how the bellow self-hosted demo is running))
 ```
 
 ## More info
