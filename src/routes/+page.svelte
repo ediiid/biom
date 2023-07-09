@@ -25,10 +25,14 @@
 		class="flex flex-col pl-[40px] md:pl-[85px] pt-[55px] md:pt-[159px] w-full pb-[55px] md:pb-[0px] md:h-[675px] bg-cover bg-no-repeat rounded-[14px]"
 		style="background-image: url('/imgs/Kitchen_3.webp');"
 	>
-		<span class="max-w-[280px] font-black text-[56px] leading-[62px] tracking-[0px] text-customwhite-500">
+		<span
+			class="max-w-[280px] font-black text-[56px] leading-[62px] tracking-[0px] text-customwhite-500"
+		>
 			So fresh. So green.
 		</span>
-		<span class="mt-[14px] mr-[40px] md:mr-0 max-w-[410px] text-customwhite-500 text-[20px] leading-[28px] font-normal tracking-[0px] font-brandon">
+		<span
+			class="mt-[14px] mr-[40px] md:mr-0 max-w-[410px] text-customwhite-500 text-[20px] leading-[28px] font-normal tracking-[0px] font-brandon"
+		>
 			We believe that a more eco-friendly everyday makes a happier you and me. We’re on a mission to
 			put sustainability in reach with better-for-the-planet wipes that are easy, effective, and
 			plastic-free.
@@ -54,33 +58,40 @@
 	class="flex flex-col w-full h-[730px] bg-cover bg-no-repeat z-20"
 	style="background-image: url('/imgs/Mask Group 12.webp');"
 >
-	<div class="flex flex-col md:self-end md:max-w-[565px] pr-4 md:pr-0 pl-4 md:pl-0 md:mr-[140px] pt-10 md:pt-[103px] w-full md:w-1/2">
+	<div
+		class="flex flex-col md:self-end md:max-w-[565px] pr-4 md:pr-0 pl-4 md:pl-0 md:mr-[140px] pt-10 md:pt-[103px] w-full md:w-1/2"
+	>
 		<span class="font-normal font-brandon text-[14px] tracking-[2.1px] text-customgray-900">
 			THE BIOM DISPENSER
 		</span>
 		<span class="text-customgray-900 text-[36px] font-black tracking-[0px] leading-[62px]">
 			Redefine your experience of clean.
 		</span>
-		<span class="font-normal text-[18px] tracking-[0px] leading-[28px] font-brandon text-customgray-900">
+		<span
+			class="font-normal text-[18px] tracking-[0px] leading-[28px] font-brandon text-customgray-900"
+		>
 			A quality engineered wipes dispenser that looks beautiful in your home, making better habits
 			for your home and planet always within reach.
 		</span>
 		<div class="flex flex-col mt-[42px] space-y-[35px]">
 			<div class="flex space-x-[22px]">
 				<img src="/icons/beautiful design icon.webp" alt="Beautiful design icon" />
-				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
+				<span
+					class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Beautiful design, fit for your home</span
 				>
 			</div>
 			<div class="flex space-x-[22px]">
 				<img src="/icons/durable stainless icon.webp" alt="Durable stainless icon" />
-				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
+				<span
+					class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Durable stainless steel exterior</span
 				>
 			</div>
 			<div class="flex space-x-[22px]">
 				<img src="/icons/non toxic icon.webp" alt="Non toxic icon" />
-				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
+				<span
+					class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Non-toxic, BPA free</span
 				>
 			</div>
@@ -93,8 +104,12 @@
 	</div>
 </div>
 
-<div class="mt-[40px] flex flex-col space-y-4 md:space-y-0 px-4 md:px-0 md:flex-row justify-between">
-	<div class="group relative w-full md:w-[433px] h-[415px] overflow-hidden rounded-[14px] md:rounded-l-none">
+<div
+	class="mt-[40px] flex flex-col space-y-4 md:space-y-0 px-4 md:px-0 md:flex-row justify-between"
+>
+	<div
+		class="group relative w-full md:w-[433px] h-[415px] overflow-hidden rounded-[14px] md:rounded-l-none"
+	>
 		<div
 			class="group bg-cover bg-right group-hover:scale-105 ease-in-out duration-500 w-full h-full"
 			style="background-image: url('/imgs/Living Room_1.webp');"
@@ -122,7 +137,9 @@
 			>office</span
 		>
 	</div>
-	<div class="group relative w-full md:w-[433px] h-[415px] overflow-hidden rounded-[14px] md:rounded-r-none">
+	<div
+		class="group relative w-full md:w-[433px] h-[415px] overflow-hidden rounded-[14px] md:rounded-r-none"
+	>
 		<div
 			class="group bg-cover bg-left group-hover:scale-105 ease-in-out duration-500 w-full h-full"
 			style="background-image: url('/imgs/Kitchen Shot_3.webp');"
@@ -205,7 +222,8 @@
 <div
 	class="relative flex flex-col place-content-center px-4 md:px-0 py-4 md:py-0 m-auto md:h-[450px] bg-customgray-100 -mt-[16px] text-center"
 >
-	<span class="text-[14px] font-normal leading-[62px] tracking-[2.1px] text-customgray-900 font-brandon"
+	<span
+		class="text-[14px] font-normal leading-[62px] tracking-[2.1px] text-customgray-900 font-brandon"
 		>WHAT PEOPLE ARE SAYING</span
 	>
 	<span
@@ -214,7 +232,8 @@
 		They’re great because they don’t dry my skin out and I love knowing that buying their products
 		are better for the environment.”</span
 	>
-	<span class="text-[13px] font-normal leading-[62px] tracking-[1.3px] text-customgray-900 font-brandon"
+	<span
+		class="text-[13px] font-normal leading-[62px] tracking-[1.3px] text-customgray-900 font-brandon"
 		>- RACHAEL H.</span
 	>
 	<div class="flex place-content-center space-x-[12px] mt-4">
@@ -235,7 +254,8 @@
 			class="absolute w-[858px] h-[606px] top-[126px] left-[513px] bg-customgreen-100 rounded-xl z-10"
 		>
 			<div class="flex flex-col space-y-[10px] ml-[222px] mt-[60px]">
-				<span class="text-[14px] font-normal leading-[10px] tracking-[2.1px] text-customgray-900 font-brandon"
+				<span
+					class="text-[14px] font-normal leading-[10px] tracking-[2.1px] text-customgray-900 font-brandon"
 					>BIOM WIPES</span
 				>
 				<span class="text-[36px] font-black leading-[44px] tracking-[0px] text-black"
@@ -254,7 +274,8 @@
 							alt="Biodegradable icon"
 							class="w-[69px] h-[66px]"
 						/>
-						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
+						<span
+							class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
 							>100% biodegradable</span
 						>
 					</div>
@@ -264,7 +285,8 @@
 							alt="Plastic free icon"
 							class="w-[69px] h-[66px]"
 						/>
-						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
+						<span
+							class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
 							>Plastic-free</span
 						>
 					</div>
@@ -274,7 +296,8 @@
 							alt="Plant based icon"
 							class="w-[69px] h-[66px]"
 						/>
-						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
+						<span
+							class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
 							>100% plant-based</span
 						>
 					</div>
@@ -304,7 +327,8 @@
 		<div
 			class="absolute w-full top-[35px] md:top-[233px] flex flex-col place-content-center text-center"
 		>
-			<span class="hidden md:block text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500 font-brandon"
+			<span
+				class="hidden md:block text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500 font-brandon"
 				>CLEANING OUR OCEANS WITH EVERY WIPE</span
 			>
 			<span

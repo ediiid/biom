@@ -21,8 +21,8 @@ export default {
 				}
 			},
 			fontFamily: {
-				'sans': ['serif', 'system-ui'], // override default font to serif
-				'brandon': ['Brandon-Grotesque', 'system-ui']
+				sans: ['serif', 'system-ui'], // override default font to serif
+				brandon: ['Brandon-Grotesque', 'system-ui']
 			}
 		}
 	},

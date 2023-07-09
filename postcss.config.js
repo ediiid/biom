@@ -5,6 +5,6 @@ export default {
 		autoprefixer: {},
 		cssnano: {
 			preset: 'default'
-		},
+		}
 	}
 };

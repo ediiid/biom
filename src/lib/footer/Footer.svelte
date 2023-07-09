@@ -10,11 +10,14 @@
 			class="absolute -top-[300px] md:-top-[150px] flex w-full md:max-w-[1302px] md:mx-[69px] h-[300px] bg-customgray-100 rounded-t-[14px] md:rounded-[14px]"
 			style="background-image: url('/imgs/Biom_wipe_2.webp');"
 		>
-			<div class="flex flex-col place-content-between max-w-[414px] my-auto mx-8 md:mx-0 md:ml-[111px]">
+			<div
+				class="flex flex-col place-content-between max-w-[414px] my-auto mx-8 md:mx-0 md:ml-[111px]"
+			>
 				<span class="text-black font-black text-[30px] tracking-[0px] leading-[38px] max-w-[350px]"
 					>Get the latest news delivered to your inbox.</span
 				>
-				<span class="text-black font-normal text-[16px] tracking-[0px] leading-[26px] mt-[13px] font-brandon"
+				<span
+					class="text-black font-normal text-[16px] tracking-[0px] leading-[26px] mt-[13px] font-brandon"
 					>Get access to the exciting stuff — exclusive new deals, product launches and more. Plus,
 					get a 10% discount on your next order.</span
 				>
@@ -38,7 +41,9 @@
 		</div>
 
 		<div class="flex self-center md:h-[106px] w-full px-8 md:px-[69px] mt-[50px]">
-			<div class="flex flex-col md:flex-row justify-between w-full border-t border-customgreen-900 pb-4 md:pb-0">
+			<div
+				class="flex flex-col md:flex-row justify-between w-full border-t border-customgreen-900 pb-4 md:pb-0"
+			>
 				<span
 					class="self-center text-center pt-4 md:pt-0 text-customwhite-500 font-normal text-[15px] tracking-[0.38px] leading-[22px] font-brandon my-auto"
 					>© 2021 biom. All rights reserved • Privacy Policy • Terms of Service</span
@@ -66,7 +71,9 @@
 			</div>
 		</div>
 
-		<div class="flex flex-col md:flex-row space-y-8 md:space-y-0 self-center justify-items-center md:space-x-[65px] text-center">
+		<div
+			class="flex flex-col md:flex-row space-y-8 md:space-y-0 self-center justify-items-center md:space-x-[65px] text-center"
+		>
 			<a
 				href="/"
 				class="self-center text-customwhite-500 font-bold font-brandon text-[14px] tracking-[1.4px] leading-[20px] my-auto"
