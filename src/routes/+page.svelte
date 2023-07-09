@@ -20,19 +20,19 @@
 
 <div class="px-[25px]">
 	<div
-		class="flex flex-col space-y-[14px] pl-[85px] pt-[159px] w-full h-[675px] bg-cover bg-no-repeat rounded-[14px]"
+		class="flex flex-col pl-[85px] pt-[159px] w-full h-[675px] bg-cover bg-no-repeat rounded-[14px]"
 		style="background-image: url('/imgs/Kitchen_3.png');"
 	>
-		<span class="max-w-[260px] font-black text-[56px] leading-[62px] text-customwhite-500">
+		<span class="max-w-[280px] font-black text-[56px] leading-[62px] tracking-[0px] text-customwhite-500">
 			So fresh. So green.
 		</span>
-		<span class="max-w-[407px] text-customwhite-500 font-[20px] leading-[28px]">
+		<span class="mt-[14px] max-w-[410px] text-customwhite-500 text-[20px] leading-[28px] font-normal tracking-[0px] font-brandon">
 			We believe that a more eco-friendly everyday makes a happier you and me. We’re on a mission to
 			put sustainability in reach with better-for-the-planet wipes that are easy, effective, and
 			plastic-free.
 		</span>
 		<button
-			class="bg-white hover:bg-customwhite-500 rounded-md w-[180px] h-[50px] text-customgray-900 font-black text-[13px] tracking-[1.95px] mt-6"
+			class="mt-6 bg-white hover:bg-customwhite-500 rounded-md w-[180px] h-[50px] text-customgray-900 font-black font-brandon text-[13px] tracking-[1.95px]"
 		>
 			GET STARTED
 		</button>
@@ -43,7 +43,7 @@
 	class="absolute rotate-180 w-[270px] h-[730] ml-6 overflow-y-auto overflow-x-hidden hide-scrollbar z-10"
 >
 	<div
-		class="rotate-90 text-[225px] text-customgray-100 font-bold w-[0px] h-[730px] whitespace-nowrap hide-scrollbar"
+		class="rotate-90 text-[225px] text-customgray-100 font-bold w-[0px] h-[730px] whitespace-nowrap hide-scrollbar font-brandon tracking-[-5.63px]"
 	>
 		meet biom
 	</div>
@@ -53,38 +53,38 @@
 	style="background-image: url('/imgs/Mask Group 12.png');"
 >
 	<div class="flex flex-col self-end max-w-[565px] mr-[140px] pt-[103px] w-1/2">
-		<span class="font-normal text-[14px] tracking-[2.1px] text-customgray-900">
+		<span class="font-normal font-brandon text-[14px] tracking-[2.1px] text-customgray-900">
 			THE BIOM DISPENSER
 		</span>
-		<span class="text-customgray-900 text-[36px] font-black">
+		<span class="text-customgray-900 text-[36px] font-black tracking-[0px] leading-[62px]">
 			Redefine your experience of clean.
 		</span>
-		<span class="font-normal text-[14px] tracking-[2.1px] text-customgray-900">
+		<span class="font-normal text-[18px] tracking-[0px] leading-[28px] font-brandon text-customgray-900">
 			A quality engineered wipes dispenser that looks beautiful in your home, making better habits
 			for your home and planet always within reach.
 		</span>
 		<div class="flex flex-col mt-[42px] space-y-[35px]">
 			<div class="flex space-x-[22px]">
 				<img src="/icons/beautiful design icon.png" alt="Beautiful design icon" />
-				<span class="my-auto font-normal text-customgray-900 leading-[26px]"
+				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Beautiful design, fit for your home</span
 				>
 			</div>
 			<div class="flex space-x-[22px]">
 				<img src="/icons/durable stainless icon.png" alt="Durable stainless icon" />
-				<span class="my-auto font-normal text-customgray-900 leading-[26px]"
+				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Durable stainless steel exterior</span
 				>
 			</div>
 			<div class="flex space-x-[22px]">
 				<img src="/icons/non toxic icon.png" alt="Non toxic icon" />
-				<span class="my-auto font-normal text-customgray-900 leading-[26px]"
+				<span class="my-auto font-normal text-customgray-900 font-brandon text-[18px] leading-[26px] tracking-[0px]"
 					>Non-toxic, BPA free</span
 				>
 			</div>
 		</div>
 		<button
-			class="bg-customgreen-900 hover:bg-customgray-900 mt-[45px] w-[163px] py-4 rounded-md text-customwhite-500 font-black text-[13px] tracking-[1.95px]"
+			class="bg-customgreen-900 hover:bg-customgray-900 mt-[45px] w-[163px] max-h-[50px] py-4 rounded-md text-customwhite-500 font-black text-[13px] tracking-[1.95px] font-brandon"
 		>
 			SHOP NOW
 		</button>
@@ -108,11 +108,11 @@
 			style="background-image: url('/imgs/office.png');"
 		/>
 		<span
-			class="group absolute top-[108px] left-[168px] text-white font-normal text-[16px] tracking-[2.4px]"
+			class="group absolute top-[108px] left-[168px] text-white font-normal text-[16px] tracking-[2.4px] font-brandon"
 			>WHERE YOU NEED IT,</span
 		>
 		<span
-			class="group absolute top-[132px] left-[100px] text-white font-black text-[78px] tracking-[-0.78px] leading-[82px]"
+			class="group absolute top-[132px] mx-[100px] text-white font-black text-[78px] text-center tracking-[-0.78px] leading-[82px]"
 			>when you need it.</span
 		>
 		<span
@@ -142,7 +142,7 @@
 				class="group flex w-[286px] ml-[25px] place-content-center border border-customgray-900 rounded-[6px]"
 			>
 				<span
-					class="group border-r border-r-customgray-900 text-[14px] font-bold text-customgreen-900 p-3"
+					class="group border-r border-r-customgray-900 text-[13px] font-bold text-customgreen-900 p-3 font-brandon tracking-[1px]"
 				>
 					CHOOSE YOUR VESSEL COLOR
 				</span>
@@ -166,7 +166,7 @@
 			>Biom Dispenser</span
 		>
 		<span
-			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[50px] text-black font-normal text-[14px]"
+			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[50px] text-black font-normal text-[14px] font-brandon tracking-[1.4px]"
 			>OCEAN TEAL</span
 		>
 	</div>
@@ -180,7 +180,7 @@
 			>Biom Dispenser</span
 		>
 		<span
-			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[50px] text-black font-normal text-[14px]"
+			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[50px] text-black font-normal text-[14px] font-brandon tracking-[1.4px]"
 			>WHITE</span
 		>
 	</div>
@@ -194,7 +194,7 @@
 			>Biom Dispenser</span
 		>
 		<span
-			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[50px] text-black font-normal text-[14px]"
+			class="group opacity-0 group-hover:opacity-100 ease-in-out duration-300 absolute bottom-[50px] text-black font-normal text-[14px] font-brandon tracking-[1.4px]"
 			>INK BLACK</span
 		>
 	</div>
@@ -203,7 +203,7 @@
 <div
 	class="relative flex flex-col place-content-center m-auto h-[450px] bg-customgray-100 -mt-[16px] text-center"
 >
-	<span class="text-[14px] font-normal leading-[62px] tracking-[2.1px] text-customgray-900"
+	<span class="text-[14px] font-normal leading-[62px] tracking-[2.1px] text-customgray-900 font-brandon"
 		>WHAT PEOPLE ARE SAYING</span
 	>
 	<span
@@ -212,7 +212,7 @@
 		They’re great because they don’t dry my skin out and I love knowing that buying their products
 		are better for the environment.”</span
 	>
-	<span class="text-[13px] font-normal leading-[62px] tracking-[1.3px] text-customgray-900"
+	<span class="text-[13px] font-normal leading-[62px] tracking-[1.3px] text-customgray-900 font-brandon"
 		>- RACHAEL H.</span
 	>
 	<div class="flex place-content-center space-x-[12px] mt-4">
@@ -233,14 +233,14 @@
 			class="absolute w-[858px] h-[606px] top-[126px] left-[513px] bg-customgreen-100 rounded-xl z-10"
 		>
 			<div class="flex flex-col space-y-[10px] ml-[222px] mt-[60px]">
-				<span class="text-[14px] font-normal leading-[10px] tracking-[2.1px] text-customgray-900"
+				<span class="text-[14px] font-normal leading-[10px] tracking-[2.1px] text-customgray-900 font-brandon"
 					>BIOM WIPES</span
 				>
 				<span class="text-[36px] font-black leading-[44px] tracking-[0px] text-black"
 					>Better for you, and the planet.</span
 				>
 				<span
-					class="text-[18px] max-w-[555px] font-normal leading-[28px] tracking-[0px] text-customgray-900"
+					class="text-[18px] max-w-[555px] font-normal leading-[28px] tracking-[0px] text-customgray-900 font-brandon"
 					>The experience of clean should feel amazing. In a time when we’re constantly sanitizing,
 					it can be damaging to our hands and skins. We decided to load our wipes with Aloe to take
 					care of you, while you take care of your home.</span
@@ -252,7 +252,7 @@
 							alt="Biodegradable icon"
 							class="w-[69px] h-[66px]"
 						/>
-						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black"
+						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
 							>100% biodegradable</span
 						>
 					</div>
@@ -262,7 +262,7 @@
 							alt="Plastic free icon"
 							class="w-[69px] h-[66px]"
 						/>
-						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black"
+						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
 							>Plastic-free</span
 						>
 					</div>
@@ -272,14 +272,14 @@
 							alt="Plant based icon"
 							class="w-[69px] h-[66px]"
 						/>
-						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black"
+						<span class="my-auto text-[18px] font-normal leading-[26px] tracking-[0px] text-black font-brandon"
 							>100% plant-based</span
 						>
 					</div>
 					<button
-						class="bg-customgreen-900 hover:bg-customgray-900 mt-[45px] w-[163px] py-4 rounded-md text-customwhite-500 font-black text-[13px] tracking-[1.95px]"
+						class="bg-customgreen-900 hover:bg-customgray-900 mt-[45px] w-fit py-4 px-[40px] rounded-md text-customwhite-500 font-black text-[13px] tracking-[1.95px] font-brandon"
 					>
-						SHOP NOW
+						SUBSCRIBE NOW
 					</button>
 				</div>
 			</div>
@@ -300,22 +300,22 @@
 			/>
 		</video>
 		<div
-			class="absolute w-full top-[233px] flex flex-col space-y-0 place-content-center text-center"
+			class="absolute w-full top-[233px] flex flex-col place-content-center text-center"
 		>
-			<span class="text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500"
+			<span class="text-[14px] font-normal leading-[6px] tracking-[2.1px] text-customwhite-500 font-brandon"
 				>CLEANING OUR OCEANS WITH EVERY WIPE</span
 			>
 			<span
-				class="!mt-[6px] text-[36px] font-black leading-[62px] tracking-[0px] text-customwhite-500"
+				class="mt-[6px] text-[36px] font-black leading-[62px] tracking-[0px] text-customwhite-500"
 				>Wipes have plastic in them. We don’t.</span
 			>
 			<span
-				class="!mt-[10px] self-center max-w-[636px] text-[18px] font-normal leading-[28px] tracking-[0px] text-customwhite-500"
+				class="mt-[10px] self-center max-w-[636px] text-[18px] font-normal leading-[28px] tracking-[0px] text-customwhite-500 font-brandon"
 				>We reinvented wipes to cut out all the bad stuff —like single-use plastic that hurts the
 				environment, and toxic chemicals that don’t belong in our oceans (or in our homes).</span
 			>
 			<button
-				class="!mt-[24px] mx-auto bg-white hover:bg-customwhite-500 rounded-md w-[180px] h-[50px] text-customgray-900 font-black text-[13px] tracking-[1.95px]"
+				class="mt-[24px] mx-auto bg-white hover:bg-customwhite-500 rounded-md w-[180px] h-[50px] text-customgray-900 font-black text-[13px] tracking-[1.95px] font-brandon"
 			>
 				LEARN MORE
 			</button>
@@ -364,7 +364,7 @@
 		class="group self-center mt-[40px] flex w-fit place-content-center border border-customgray-900 rounded-[6px]"
 	>
 		<span
-			class="group border-r border-r-customgray-900 text-[14px] font-bold text-customgreen-900 px-4 py-3"
+			class="group border-r border-r-customgray-900 text-[14px] font-bold text-customgreen-900 px-4 py-3 font-brandon tracking-[1.3px]"
 		>
 			FOLLOW US ON INSTAGRAM
 		</span>

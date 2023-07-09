@@ -5,7 +5,7 @@
 <header class="w-full sticky z-[100] top-0 backdrop-blur-[10px] bg-white bg-opacity-25">
 	<div class="flex justify-between {headerClass} px-[50px] py-[23px] align-middle">
 		<div
-			class="flex justify-start space-x-[22px] align-middle my-auto text-black text-[15px] font-bold"
+			class="flex justify-start space-x-[22px] align-middle my-auto text-black text-[15px] font-bold font-brandon leading-[22px] tracking-[1.5px]"
 		>
 			<a href="/"> SHOP </a>
 			<a href="/" class="whitespace-nowrap"> WHY BIOM </a>
@@ -15,10 +15,10 @@
 			<img src="/imgs/logo@2x.png" alt="BIOM logo" class="max-w-[92px] h-auto" />
 		</a>
 		<div
-			class="flex justify-end space-x-[22px] align-middle my-auto text-black text-[15px] font-bold"
+			class="flex justify-end space-x-[22px] align-middle my-auto text-black text-[15px] font-bold font-brandon"
 		>
-			<a href="/" class="whitespace-nowrap"> SIGN IN </a>
-			<a href="/"> CART </a>
+			<a href="/" class="whitespace-nowrap leading-[22px] tracking-[1.5px]"> SIGN IN </a>
+			<a href="/" class="leading-[22px] tracking-[1.5px]"> CART </a>
 			<div class="relative">
 				<img src="/icons/cart.svg" alt="Cart icon" class="max-w-[26px] h-auto" />
 				<div
