@@ -1,3 +1,23 @@
+<script>
+	import { browser } from '$app/environment';
+
+	// listening to every scroll change to get scroll position in % and move 'element-to-move' accordingly when visible
+	if (browser) {
+		window.addEventListener('scroll', function () {
+			let maxHeight = document.body.scrollHeight - window.innerHeight;
+			let scrolled = Number(((window.pageYOffset * 100) / maxHeight).toFixed(2));
+			let element = document.getElementById('element-to-move');
+			let scrollThreshold = 85;
+			if (scrolled > scrollThreshold) {
+				let moveBy = scrolled - scrollThreshold;
+				element.style.transform = 'translateX(-' + moveBy * 10 + 'px)';
+			} else if (scrolled < scrollThreshold) {
+				element.style.transform = 'translateX(0px)';
+			}
+		});
+	}
+</script>
+
 <div class="px-[25px]">
 	<div
 		class="flex flex-col space-y-[14px] pl-[85px] pt-[159px] w-full h-[675px] bg-cover bg-no-repeat rounded-[14px]"
@@ -308,7 +328,7 @@
 		class="mx-auto mb-[50px] text-[36px] font-black leading-[44px] tracking-[0px] text-customgray-900"
 		>#cleanwithbiom</span
 	>
-	<div class="flex justify-between space-x-[30px]">
+	<div class="flex justify-between space-x-[30px] ease-in-out" id="element-to-move">
 		<img
 			src="/imgs/AdobeStock_372350085_Preview.png"
 			alt="AdobeStock_372350085_Preview"
