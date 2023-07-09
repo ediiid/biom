@@ -1,38 +1,61 @@
-# create-svelte
+# Welcome
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Greetings! :smiley:
+My name is Edis, thank you for reviewing my exam of the Biom site home page option.
 
-## Creating a project
+## Building & running the project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone, build and run (tested with npm version 9.6.2 & node version 18.12.1)
 
 ```bash
-npm run dev
+# download the zip from above or clone as follows
+git clone https://github.com/ediiid/biom.git
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+# install all dependencies
+npm install
 
-## Building
-
-To create a production version of your app:
-
-```bash
+# build
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Run option 1: preview
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+# run as preview
+npm run preview
+
+# preview server should be available at http://localhost:4173/
+```
+
+Run option 2: production
+
+```bash
+# run in production
+npm run start
+
+# production server should be available at http://localhost:3000/ (port can be forwarded through a reverse proxy before allowing it to be accessible from outside (this is how the bellow self-hosted demo is running))
+```
+
+## More info
+
+Used dependencies / libraries / design-systems:
+
+- SvelteKit framework (and its core dependencies)
+- TailwindCSS
+- Checking with JSDoc (tool)
+- ESLint (tool)
+- Prettier (tool)
+
+Notes:
+
+- Took 24 hours to complete from start to finish
+- Images were optimized and converted to .webp instead of .jpeg (due to most of them being transparent)
+- Mobile version was improvised
+- 'Brandon Grotesque' font appears slightly different (perhaps due to a different version/revision of the font that I managed to obtain)
+- 'Chronicle Display' font was replaced by Serif (since I couldn't obtain it)
+
+Demo can be found also here: https://biom.edis.one/
+
+> Please note that the demo is self-hosted on a home server and there is a small chance for it to be offline (server uptime is 95% and upload speed isn't great but enough).
+
+Thank you for reviewing the exam!
